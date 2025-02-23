@@ -102,7 +102,7 @@ void render_marbles_scene() {
     camera cam;
     cam.aspect_ratio = 16.0 / 9.0;
     cam.image_width = 1200;
-    cam.samples_per_pixel = 200; /
+    cam.samples_per_pixel = 200; 
     cam.max_depth = 50;
     cam.vfov = 35;
     cam.lookfrom = point3(6,4,6);
